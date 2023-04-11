@@ -1,0 +1,43 @@
+.navbar-logo {
+  width: 25%;
+}
+
+.main {
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: end;
+}
+
+.btn-custom {
+  height: 60px;
+}
+
+/* .contact {
+  background-color: #1d8348;
+} */
+
+section {
+  padding: 20px 0;
+}
+
+@media (max-width: 575px) {
+  .main {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .about-us-left {
+    text-align: center;
+  }
+  .about-us-right {
+    text-align: center;
+  }
+}
