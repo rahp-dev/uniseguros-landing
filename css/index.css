@@ -40,4 +40,7 @@ section {
   .about-us-right {
     text-align: center;
   }
+  .border-end {
+    border-color: 0px white;
+  }
 }
