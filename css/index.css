@@ -21,8 +21,9 @@
   height: 60px;
 }
 
-/* .contact {
-  background-color: #1d8348;
+/* .image-card {
+  background-image: url("../assets/virtual-assistant.svg");
+  background-repeat: no-repeat;
 } */
 
 section {
