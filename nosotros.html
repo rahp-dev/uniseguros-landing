@@ -51,7 +51,7 @@
     </nav>
     <!-- Header-->
 
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
       <div class="container">
         <section class="nav-links">
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
@@ -114,7 +114,7 @@
           <div
             class="row gx-5 align-items-center justify-content-evenly text-center mb-5"
           >
-            <div class="col-md-6 col-sm-6 d-flex justify-content-center">
+            <div class="col-md-4 col-sm-6 d-flex justify-content-center">
               <div class="card p-4 mb-3 shadow" style="max-width: 540px">
                 <div class="row g-0 align-items-center">
                   <div class="col-md-4">
@@ -136,7 +136,7 @@
               </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 d-flex justify-content-center">
+            <div class="col-md-4 col-sm-6 d-flex justify-content-center">
               <div class="card p-4 mb-3 shadow" style="max-width: 540px">
                 <div class="row g-0 align-items-center">
                   <div class="col-md-4">
@@ -162,7 +162,7 @@
           <div
             class="row gx-5 align-items-center justify-content-evenly text-center"
           >
-            <div class="col-md-6 col-sm-6 d-flex justify-content-center">
+            <div class="col-md-4 col-sm-6 d-flex justify-content-center">
               <div class="card p-4 mb-3 shadow" style="max-width: 540px">
                 <div class="row g-0 align-items-center">
                   <div class="col-md-4">
@@ -184,7 +184,7 @@
               </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 d-flex justify-content-center">
+            <div class="col-md-4 col-sm-6 d-flex justify-content-center">
               <div class="card p-4 mb-3 shadow" style="max-width: 540px">
                 <div class="row g-0 align-items-center">
                   <div class="col-md-4">
@@ -209,8 +209,20 @@
         </div>
       </section>
 
+      <section class="box-quote mb-4 mt-4 bg-success bg-opacity-75 text-white">
+        <figure class="text-center mt-4 mb-4">
+          <blockquote class="blockquote">
+            <p class="fs-4 fw-bolder">
+              Llegar juntos es el principio, mantenerse juntos es el progreso,
+              trabajar juntos es el éxito.
+            </p>
+            <p class="fst-italic fw-bold">Henry Ford.</p>
+          </blockquote>
+        </figure>
+      </section>
+
       <section class="contact">
-        <div class="container">
+        <div class="container p-0">
           <div class="d-flex justify-content-center mb-4">
             <div class="row align-items-center">
               <i class="fas fa-hospital-user fs-1" style="color: #138d75"></i>
@@ -234,13 +246,15 @@
               <div class="card w-75 text-center rounded-3 shadow">
                 <div
                   style="
-                    background-image: url('./assets/virtual-assistant.svg');
+                    background-image: url('./assets/support.jpg');
+                    background-repeat: no-repeat;
+                    height: 140px;
+                    background-size: cover;
+                    background-position: center;
                   "
-                >
-                  <p>hola</p>
-                </div>
+                ></div>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Atención vía telefónica</h5>
                   <p class="card-text">
                     This is a longer card with supporting text below as a
                     natural lead-in to additional content. This content is a
@@ -252,15 +266,17 @@
 
             <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
               <div class="card w-75 text-center rounded-3 shadow">
-                <div class="image-card">
-                  <img
-                    src="./assets/whatsapp.png"
-                    class="card-img-top img-fluid w-25 justify-content-center mt-3"
-                    alt="..."
-                  />
-                </div>
+                <div
+                  style="
+                    background-image: url('./assets/whatsapp.jpg');
+                    background-repeat: no-repeat;
+                    height: 140px;
+                    background-size: cover;
+                    background-position: center;
+                  "
+                ></div>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Atención vía WhatsApp</h5>
                   <p class="card-text">
                     This is a longer card with supporting text below as a
                     natural lead-in to additional content. This content is a
@@ -272,15 +288,17 @@
 
             <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
               <div class="card w-75 text-center rounded-3 shadow">
-                <div class="image-card">
-                  <img
-                    src="./assets/email.png"
-                    class="card-img-top img-fluid w-25 justify-content-center mt-3"
-                    alt="..."
-                  />
-                </div>
+                <div
+                  style="
+                    background-image: url('./assets/customer-email.jpg');
+                    background-repeat: no-repeat;
+                    height: 140px;
+                    background-size: cover;
+                    background-position: center;
+                  "
+                ></div>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Correos de Atención</h5>
                   <p class="card-text">
                     This is a longer card with supporting text below as a
                     natural lead-in to additional content. This content is a
@@ -297,7 +315,7 @@
     <!-- Footer-->
     <footer class="mb-5 mt-5">
       <ul
-        class="nav justify-content-center w-100 border-bottom border-top border-success border-1 pt-4 pb-4 mb-3"
+        class="nav justify-content-center w-100 bg-success bg-opacity-75 border-1 pt-4 pb-4 mb-3"
       >
         <li
           class="nav-item d-flex bg-success rounded-5 mx-2 align-items-center shadow"
