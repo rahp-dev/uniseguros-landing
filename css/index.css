@@ -25,6 +25,18 @@ section {
   padding: 20px 0;
 }
 
+.services-section .col-lg-6 .col-xl-4 {
+  height: 643.23px;
+}
+
+.row-services {
+  height: 643.23px;
+}
+
+.services-section .card {
+  height: 100%;
+}
+
 @media (max-width: 575px) {
   .main {
     flex-wrap: wrap;
