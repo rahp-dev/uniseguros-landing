@@ -42,15 +42,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Inicio</a
+              >
             </li>
-            <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#!">About</a></li> -->
             <li class="nav-item">
               <a class="nav-link active" href="./nosotros.html"
                 >Sobre Nosotros</a
               >
             </li>
-            <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#!">Services</a></li> -->
           </ul>
         </div>
       </div>
@@ -72,22 +74,25 @@
       </section>
     </div>
 
-    <section class="about-us">
+    <section class="about-us mb-3">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-4 text-end">
-            <img src="./assets/Avatar_Uniseguros.png" alt="" />
+            <img src="./assets/Avatar_Uniseguros.png" alt="avatar-uniseguros" />
           </div>
           <div class="col-lg-4 align-self-center text-start">
-            <div class="d-grid gap-4 col-6 mx-auto">
-              <button type="button" class="btn btn-outline-success">
-                Large button
+            <div class="d-grid gap-4 col-xl-8 mx-5">
+              <button type="button" class="btn btn-outline-success btn-lg">
+                <i class="far fa-question-circle"></i>
+                ¿Quienes somos?
               </button>
-              <button type="button" class="btn btn-outline-success">
-                Large button
+              <button type="button" class="btn btn-outline-success btn-lg">
+                <i class="fas fa-book-reader"></i>
+                Nuestra historia.
               </button>
-              <button type="button" class="btn btn-outline-success">
-                Large button
+              <button type="button" class="btn btn-outline-success btn-lg">
+                <i class="fas fa-users"></i>
+                Únete a nuestro equipo.
               </button>
             </div>
           </div>
@@ -96,20 +101,20 @@
     </section>
 
     <section id="more-info" class="mb-4">
-      <div class="container">
+      <div class="container px-5">
         <h2 class="mb-5">Obten más información de nosotros</h2>
         <div class="row align-items-center text-center mb-5">
           <div class="col-lg-6 col-md-6 d-flex justify-content-center">
             <div class="card p-4 mb-3 shadow" style="max-width: 540px">
               <div class="row g-0 align-items-center">
-                <div class="col-md-4">
+                <div class="col-xl-4">
                   <img
                     src="./assets/group.png"
                     class="img-fluid rounded-start"
                     alt="..."
                   />
                 </div>
-                <div class="col-md-8">
+                <div class="col-xl-8">
                   <div class="card-body">
                     <h5 class="card-title">Junta Directiva</h5>
                     <p class="card-text">
@@ -124,14 +129,14 @@
           <div class="col-lg-6 col-md-6 d-flex justify-content-center">
             <div class="card p-4 mb-3 shadow" style="max-width: 540px">
               <div class="row g-0 align-items-center">
-                <div class="col-md-4">
+                <div class="col-xl-4">
                   <img
                     src="./assets/team.png"
                     class="img-fluid rounded-start"
                     alt="..."
                   />
                 </div>
-                <div class="col-md-8">
+                <div class="col-xl-8">
                   <div class="card-body">
                     <h5 class="card-title">Nuestro equipo</h5>
                     <p class="card-text">
@@ -148,14 +153,14 @@
           <div class="col-lg-6 col-md-6 d-flex justify-content-center">
             <div class="card p-4 mb-3 shadow" style="max-width: 540px">
               <div class="row g-0 align-items-center">
-                <div class="col-md-4">
+                <div class="col-xl-4">
                   <img
                     src="./assets/values.png"
                     class="img-fluid rounded-start"
                     alt="..."
                   />
                 </div>
-                <div class="col-md-8">
+                <div class="col-xl-8">
                   <div class="card-body">
                     <h5 class="card-title">Nuestros valores</h5>
                     <p class="card-text">
@@ -170,14 +175,14 @@
           <div class="col-lg-6 col-md-6 d-flex justify-content-center">
             <div class="card p-4 mb-3 shadow" style="max-width: 540px">
               <div class="row g-0 align-items-center">
-                <div class="col-md-4">
+                <div class="col-xl-4">
                   <img
                     src="./assets/enterprise.png"
                     class="img-fluid rounded-start"
                     alt="..."
                   />
                 </div>
-                <div class="col-md-8">
+                <div class="col-xl-8">
                   <div class="card-body">
                     <h5 class="card-title">Reaseguradores</h5>
                     <p class="card-text">
@@ -192,7 +197,9 @@
       </div>
     </section>
 
-    <section class="box-quote mb-4 mt-4 bg-success bg-opacity-75 text-white">
+    <section
+      class="box-quote px-4 mb-4 mt-4 bg-success bg-opacity-75 text-white"
+    >
       <figure class="text-center mt-4 mb-4">
         <blockquote class="blockquote">
           <p class="fs-4 fw-bolder">
@@ -206,9 +213,13 @@
 
     <section class="contact">
       <div class="container p-0">
-        <div class="d-flex justify-content-center mb-4">
+        <div class="d-flex justify-content-center mb-4 mx-4">
           <div class="row align-items-center">
-            <i class="fas fa-hospital-user fs-1" style="color: #138d75"></i>
+            <div
+              class="feature bg-success bg-opacity-75 text-white rounded-5 me-3 shadow-sm"
+            >
+              <i class="fas fa-hospital-user"></i>
+            </div>
           </div>
           <div class="mx-3">
             <h2 class="fw-bolder">
@@ -222,68 +233,88 @@
           </div>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-3 gx-1 align-items-center mt-5">
-          <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+        <div class="row row-cols-1 gx-1 align-items-center mt-5">
+          <div
+            class="col-xl-4 col-lg-4 col-md-6 mb-4 d-flex justify-content-center"
+          >
             <div class="card w-75 text-center rounded-3 shadow">
               <div
                 style="
                   background-image: url('./assets/support.jpg');
                   background-repeat: no-repeat;
                   height: 140px;
-                  background-size: cover;
                   background-position: center;
                 "
               ></div>
               <div class="card-body">
                 <h5 class="card-title">Atención vía telefónica</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <p class="m-0">
+                  Teléfono de Contacto
+                  <span class="text-success fw-bold">24hrs:</span>
+                </p>
+                <p class="fw-bold">
+                  <a href="tel:02123358903" class="link-success"
+                    >0212-3358903</a
+                  >
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
-            <div class="card w-75 text-center rounded-3 shadow">
-              <div
-                style="
-                  background-image: url('./assets/whatsapp.jpg');
-                  background-repeat: no-repeat;
-                  height: 140px;
-                  background-size: cover;
-                  background-position: center;
-                "
-              ></div>
-              <div class="card-body">
-                <h5 class="card-title">Atención vía WhatsApp</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+          <div
+            class="col-xl-4 col-lg-4 col-md-6 mb-4 d-flex justify-content-center"
+          >
             <div class="card w-75 text-center rounded-3 shadow">
               <div
                 style="
                   background-image: url('./assets/customer-email.jpg');
                   background-repeat: no-repeat;
                   height: 140px;
-                  background-size: cover;
                   background-position: center;
                 "
               ></div>
               <div class="card-body">
                 <h5 class="card-title">Correos de Atención</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <p class="m-0 fw-bold">
+                  <a href="mailto:uniclave@uniseguros.com" class="link-success">
+                    uniclave@uniseguros.com</a
+                  >
+                </p>
+                <p class="fw-bold">
+                  <a
+                    href="mailto:unisiniestro@uniseguros.com"
+                    class="link-success"
+                  >
+                    unisiniestro@uniseguros.com</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-xl-4 col-lg-4 col-md-6 mb-4 d-flex justify-content-center"
+          >
+            <div class="card w-75 text-center rounded-3 shadow">
+              <div
+                style="
+                  background-image: url('./assets/whatsapp.jpg');
+                  background-repeat: no-repeat;
+                  height: 140px;
+                  background-position: center;
+                "
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Atención vía WhatsApp</h5>
+                <p class="m-0 text-success fw-bold">Teléfono Unichat:</p>
+                <p class="fw-bold">
+                  <a
+                    href="https://wa.me/19547875009"
+                    target="_blank"
+                    class="link-success"
+                  >
+                    +19547875009
+                  </a>
                 </p>
               </div>
             </div>
@@ -354,40 +385,29 @@
           <div class="col-lg-3 mb-3 border-end border-success border-2">
             <ul class="nav flex-column mx-3">
               <li class="nav-item mb-2">
-                <a
-                  href="#"
-                  class="nav-link p-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                <a href="#" class="nav-link p-0 link-success link-offset-2"
                   >Mapa del sitio</a
                 >
               </li>
               <li class="nav-item mb-2">
-                <a
-                  class="nav-link p-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                <a class="nav-link p-0 link-success link-offset-2"
                   >Contáctanos</a
                 >
-                <a
-                  href="#"
-                  class="nav-link p-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                <a href="tel:02123358903" class="nav-link p-0 link-success"
                   >0212-3358903</a
                 >
               </li>
               <li class="nav-item mb-2">
+                <a class="nav-link p-0 link-success">Unichat</a>
                 <a
-                  class="nav-link p-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-                  >Unichat</a
-                >
-                <a
-                  href="#"
-                  class="nav-link p-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href="https://wa.me/19547875009"
+                  target="_blank"
+                  class="nav-link p-0 link-success"
                   >+19547875009</a
                 >
               </li>
               <li class="nav-item mb-2">
-                <a
-                  href="#"
-                  class="nav-link p-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-                  >Reclamos</a
-                >
+                <a href="#" class="nav-link p-0 link-success">Reclamos</a>
               </li>
             </ul>
           </div>
@@ -397,16 +417,16 @@
               <li class="nav-item mb-2">
                 <h6 class="text-success">Uniclaves</h6>
                 <a
-                  href="#"
-                  class="nav-link p-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href="mailto:uniclave@uniseguros.com"
+                  class="nav-link p-0 link-success"
                   >uniclave@uniseguros.com</a
                 >
               </li>
               <li class="nav-item mb-2">
                 <h6 class="text-success">Unisiniestros</h6>
                 <a
-                  href="#"
-                  class="nav-link p-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href="mailto:unisiniestro@uniseguros.com"
+                  class="nav-link p-0 link-success"
                   >unisiniestro@uniseguros.com</a
                 >
               </li>
@@ -423,8 +443,7 @@
                   ></i>
                   <h6 class="m-0 text-success">Ubicación</h6>
                 </div>
-                <a
-                  class="nav-link p-0 mt-2 link-success link-offset-2 link-underline-opacity-25"
+                <a class="nav-link p-0 mt-2 link-success"
                   >Av. Principal de Bello Campo, Centro Comercial Bello Campo
                   Piso 1, Chacao, Caracas.</a
                 >
@@ -435,11 +454,7 @@
                     class="fas fa-map-marker-alt me-2"
                     style="color: #186a3b"
                   ></i>
-                  <a
-                    href="#"
-                    class="nav-link p-0 link-success link-offset-2 link-underline-opacity-25"
-                    >Otras Sedes</a
-                  >
+                  <a href="#" class="nav-link p-0 link-success">Otras Sedes</a>
                 </div>
               </li>
             </ul>
