@@ -8,23 +8,11 @@ body {
   width: 25%;
 }
 
-.main {
-  display: flex;
-  max-width: 700px;
-  margin: 0 auto;
-  justify-content: space-around;
-  padding-bottom: 10px;
-}
-
 .nav-links {
   display: flex;
   flex-direction: row;
   list-style: none;
   justify-content: end;
-}
-
-.btn-custom {
-  height: 60px;
 }
 
 section {
@@ -51,32 +39,51 @@ section {
   text-align: center;
 }
 
-/* @media (max-width: 1000px) {
-  .services-section .row.mb-5.justify-content-center {
-  }
-} */
-
-@media (max-width: 1250px) {
+@media (max-width: 1400px) {
   .maps {
     width: 100%;
     height: 100%;
     margin-bottom: 3rem;
   }
+  .row-services {
+    height: 100%;
+    margin-top: 0;
+  }
 }
 
-@media (max-width: 575px) {
-  .main {
-    flex-wrap: wrap;
-    flex-direction: column;
+@media (max-width: 1024px) {
+  .maps {
+    height: 300px;
   }
-  .about-us-left {
+  footer .col-lg-3.mb-3.d-flex.border-end.border-success.border-2 {
+    border-color: white !important;
+  }
+  footer .col-lg-3.mb-3.border-end.border-success.border-2 {
+    border-color: white !important;
+  }
+  footer .col-lg-3.mb-3.border-end.border-success.border-2 {
+    border-color: white !important;
+  }
+  footer .img-footer {
+    width: 50% !important;
+  }
+  footer {
     text-align: center;
   }
-  .about-us-right {
-    text-align: center;
+  footer .d-flex.flex-row {
+    justify-content: center;
   }
-  .border-end {
-    border-color: 0px white;
+  footer .d-flex.align-items-center.mb-3.w-100 {
+    justify-content: center;
+  }
+  .about-us .col-lg-4.text-end {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us .col-lg-4.text-end {
+    text-align: center !important;
   }
   .row-services {
     height: 100%;
@@ -102,9 +109,17 @@ section {
   footer .d-flex.align-items-center.mb-3.w-100 {
     justify-content: center;
   }
+  footer .col-md-3.mb-3.d-flex.border-end.border-success.border-2 {
+    border-color: white !important;
+  }
+  footer .col-md-2.mb-3.border-end.border-success.border-2 {
+    border-color: white !important;
+  }
+  footer .col-md-3.mb-3.border-end.border-success.border-2 {
+    border-color: white !important;
+  }
   .maps {
     width: 100%;
     height: 300px;
-    margin-bottom: 3rem;
   }
 }
