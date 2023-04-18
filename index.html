@@ -56,30 +56,232 @@
     <header
       class="py-5"
       style="
-        background: url('./assets/header.png') no-repeat center center fixed;
+        background: url('./assets/header.png');
+        background-repeat: no-repeat;
         background-size: 100% auto;
         box-shadow: inset 0 0 0 2000px rgba(33, 47, 61, 0.7);
       "
     >
       <div class="container px-5">
-        <div class="row gx-5 justify-content-center">
-          <div class="col-lg-6">
-            <div class="text-center my-5">
-              <h1 class="display-5 fw-bolder text-white mb-2">
-                Present your business in a whole new way
-              </h1>
-              <p class="lead text-white-50 mb-4">
-                Quickly design and customize responsive mobile-first sites with
-                Bootstrap, the world’s most popular front-end open source
-                toolkit!
-              </p>
-              <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features"
-                  >Get Started</a
+        <div class="row">
+          <div class="col-xl-4 col-lg-5 col-md-7">
+            <div class="bg-success bg-opacity-50 py-5 px-4 rounded-2 shadow">
+              <h5 class="text-white fw-semibold text-center poliza-title">
+                Cotiza tu póliza de seguros con nosotros
+              </h5>
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item shadow" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-personas-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-personas"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-personas"
+                    aria-selected="true"
+                  >
+                    Personas
+                  </button>
+                </li>
+                <li class="nav-item shadow" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-automovil-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-automovil"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-automovil"
+                    aria-selected="false"
+                  >
+                    Automóvil
+                  </button>
+                </li>
+                <li class="nav-item shadow" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-contact"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-contact"
+                    aria-selected="false"
+                  >
+                    Fianzas
+                  </button>
+                </li>
+                <li class="nav-item shadow" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-disabled-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-disabled"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-disabled"
+                    aria-selected="false"
+                  >
+                    Patrimonial
+                  </button>
+                </li>
+                <li class="nav-item shadow" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-disabled-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-disabled"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-disabled"
+                    aria-selected="false"
+                  >
+                    Aviación
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content mt-3" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-personas"
+                  role="tabpanel"
+                  aria-labelledby="pills-personas-tab"
+                  tabindex="0"
                 >
-                <a class="btn btn-outline-light btn-lg px-4" href="#!"
-                  >Learn More</a
+                  <form action="#">
+                    <div class="form-floating mb-3 shadow">
+                      <input
+                        type="email"
+                        class="form-control text-muted border-0"
+                        placeholder="Nombre completo"
+                      />
+                      <label class="text-muted">Tu nombre</label>
+                    </div>
+                    <div class="form-floating mb-3 shadow">
+                      <input
+                        type="email"
+                        class="form-control text-muted border-0"
+                        placeholder="Edad"
+                      />
+                      <label class="text-muted">Tu edad</label>
+                    </div>
+                    <div class="form-floating mb-3 shadow">
+                      <input
+                        type="email"
+                        class="form-control text-muted border-0"
+                        placeholder="Nombre completo"
+                      />
+                      <label class="text-muted">E-mail</label>
+                    </div>
+                    <div class="form-floating mb-3 shadow">
+                      <input
+                        type="email"
+                        class="form-control text-muted border-0"
+                        placeholder="Nombre completo"
+                      />
+                      <label class="text-muted">Teléfono</label>
+                    </div>
+                    <div class="d-grid align-items-center">
+                      <button
+                        class="btn btn-success shadow fw-semibold"
+                        type="submit"
+                      >
+                        <i class="fas fa-arrow-right"></i> COTIZAR
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-automovil"
+                  role="tabpanel"
+                  aria-labelledby="pills-automovil-tab"
+                  tabindex="0"
                 >
+                  <form action="#">
+                    <div class="row mb-3">
+                      <div class="col">
+                        <select
+                          class="form-select text-muted"
+                          aria-label="Default select example"
+                        >
+                          <option selected>Año</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                      <div class="col">
+                        <select
+                          class="form-select text-muted"
+                          aria-label="Default select example"
+                        >
+                          <option selected>Marca</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <div class="col">
+                        <select
+                          class="form-select text-muted"
+                          aria-label="Default select example"
+                        >
+                          <option selected>Modelo</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                      <div class="col">
+                        <select
+                          class="form-select text-muted"
+                          aria-label="Default select example"
+                        >
+                          <option selected>Version</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-floating mb-3 shadow">
+                      <input
+                        type="email"
+                        class="form-control text-muted border-0"
+                        placeholder="Nombre completo"
+                      />
+                      <label class="text-muted">Tu nombre</label>
+                    </div>
+                    <div class="form-floating mb-3 shadow">
+                      <input
+                        type="email"
+                        class="form-control text-muted border-0"
+                        placeholder="Nombre completo"
+                      />
+                      <label class="text-muted">E-mail</label>
+                    </div>
+                    <div class="form-floating mb-3 shadow">
+                      <input
+                        type="email"
+                        class="form-control text-muted border-0"
+                        placeholder="Nombre completo"
+                      />
+                      <label class="text-muted">Teléfono</label>
+                    </div>
+                    <div class="d-grid align-items-center">
+                      <button
+                        class="btn btn-success shadow fw-semibold"
+                        type="submit"
+                      >
+                        <i class="fas fa-arrow-right"></i> COTIZAR
+                      </button>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
@@ -402,12 +604,12 @@
                   class="form-control"
                   id="name"
                   type="text"
-                  placeholder="Enter your name..."
+                  placeholder="Ingresa tu nombre..."
                   data-sb-validations="required"
                 />
-                <label for="name">Full name</label>
+                <label for="name" class="text-muted">Nombre completo</label>
                 <div class="invalid-feedback" data-sb-feedback="name:required">
-                  A name is required.
+                  Este campo es requerido.
                 </div>
               </div>
               <div class="form-floating mb-3">
@@ -415,15 +617,15 @@
                   class="form-control"
                   id="email"
                   type="email"
-                  placeholder="name@example.com"
+                  placeholder="correo@correo.com"
                   data-sb-validations="required,email"
                 />
-                <label for="email">Email address</label>
+                <label for="email" class="text-muted">Correo Electrónico</label>
                 <div class="invalid-feedback" data-sb-feedback="email:required">
-                  An email is required.
+                  Este campo es requerido.
                 </div>
                 <div class="invalid-feedback" data-sb-feedback="email:email">
-                  Email is not valid.
+                  El correo es incorrecto.
                 </div>
               </div>
               <div class="form-floating mb-3">
@@ -434,9 +636,9 @@
                   placeholder="(123) 456-7890"
                   data-sb-validations="required"
                 />
-                <label for="phone">Phone number</label>
+                <label for="phone" class="text-muted">Número de Teléfono</label>
                 <div class="invalid-feedback" data-sb-feedback="phone:required">
-                  A phone number is required.
+                  Este campo es requerido.
                 </div>
               </div>
               <div class="form-floating mb-3">
@@ -444,32 +646,27 @@
                   class="form-control"
                   id="message"
                   type="text"
-                  placeholder="Enter your message here..."
+                  placeholder="Ingresa tu mensaje..."
                   style="height: 10rem; resize: none"
                   data-sb-validations="required"
                 ></textarea>
-                <label for="message">Message</label>
+                <label for="message" class="text-muted">Mensaje</label>
                 <div
                   class="invalid-feedback"
                   data-sb-feedback="message:required"
                 >
-                  A message is required.
+                  Este campo es requerido.
                 </div>
               </div>
               <div class="d-none" id="submitSuccessMessage">
                 <div class="text-center mb-3">
-                  <div class="fw-bolder">Form submission successful!</div>
-                  To activate this form, sign up at
-                  <br />
-                  <a href="https://startbootstrap.com/solution/contact-forms"
-                    >https://startbootstrap.com/solution/contact-forms</a
-                  >
+                  <div class="fw-bolder">Envío exitoso!</div>
                 </div>
               </div>
 
               <div class="d-none" id="submitErrorMessage">
                 <div class="text-center text-danger mb-3">
-                  Error sending message!
+                  Error al enviar el mensaje
                 </div>
               </div>
               <div class="d-grid">
@@ -478,7 +675,7 @@
                   id="submitButton"
                   type="submit"
                 >
-                  Submit
+                  Enviar
                 </button>
               </div>
             </form>
@@ -652,6 +849,7 @@
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script

@@ -8,6 +8,26 @@ body {
   width: 25%;
 }
 
+.nav.nav-pills {
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-wrap: nowrap;
+  display: -webkit-box;
+  display: -moz-box;
+}
+
+.poliza-title {
+  filter: drop-shadow(1px 2.5px 3px #212f3c);
+}
+
+.nav-pills .nav-link {
+  color: #b3b6b7;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #198754 !important;
+}
+
 .nav-links {
   display: flex;
   flex-direction: row;
@@ -72,6 +92,9 @@ section {
 @media (max-width: 1024px) {
   .maps {
     height: 100%;
+  }
+  header img {
+    height: 100% !important;
   }
   footer .col-lg-3.mb-3.d-flex.border-end.border-success.border-2 {
     border-color: white !important;
