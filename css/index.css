@@ -24,6 +24,15 @@ body {
   color: #b3b6b7;
 }
 
+.nav-tabs .nav-link {
+  color: #212f3c;
+}
+
+.nav-tabs .nav-link.active {
+  color: #198754 !important;
+  font-weight: 600 !important;
+}
+
 .nav-pills .nav-link.active {
   background-color: #198754 !important;
 }
@@ -39,25 +48,19 @@ section {
   padding: 20px 0;
 }
 
-.services-section .col-lg-6 .col-xl-4 {
-  height: 643.23px;
-}
-
-.row-services {
-  height: 643.23px;
-}
-
-.services-section .card {
-  height: 100%;
+.services-section a {
+  text-decoration: none !important;
 }
 
 .maps {
   width: 600px;
   height: 450px;
 }
+
 #features {
   text-align: center;
 }
+
 #more-info .container .col-lg-6.col-md-6.d-flex.justify-content-center .card {
   width: 497.52px !important;
 }
