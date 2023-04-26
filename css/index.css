@@ -16,6 +16,10 @@ body {
   display: -moz-box;
 }
 
+.logo-u {
+  filter: drop-shadow(1px 1px 1px #212f3c);
+}
+
 .poliza-title {
   filter: drop-shadow(1px 2.5px 3px #212f3c);
 }
