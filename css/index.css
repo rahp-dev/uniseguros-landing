@@ -25,7 +25,7 @@ body {
 }
 
 .nav-pills .nav-link {
-  color: #b3b6b7;
+  color: #7f8c8d;
 }
 
 .nav-tabs .nav-link {
@@ -74,6 +74,10 @@ section {
   width: 497.52px !important;
 }
 
+.poliza-text {
+  text-align: justify;
+}
+
 @media (max-width: 1400px) {
   .maps {
     width: 100%;
@@ -89,6 +93,9 @@ section {
     height: 100%;
     margin-top: 1rem;
   }
+  .brands {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -103,6 +110,9 @@ section {
   }
   .contact .card.w-75.text-center.rounded-3.shadow {
     height: 350px !important;
+  }
+  .brands {
+    width: 100%;
   }
 }
 
@@ -140,11 +150,17 @@ section {
   .contact .card.w-75.text-center.rounded-3.shadow {
     height: 100% !important;
   }
+  .brands {
+    width: 100%;
+  }
 }
 
 @media (max-width: 993px) {
   .maps {
     height: 300px !important;
+  }
+  .brands {
+    width: 100%;
   }
 }
 
@@ -181,5 +197,8 @@ section {
   .maps {
     width: 100%;
     height: 300px;
+  }
+  .brands {
+    width: 100%;
   }
 }
