@@ -162,6 +162,9 @@ section {
   .brands {
     width: 100%;
   }
+  .dropdown-item::before {
+    transform: rotate(-90deg);
+  }
 }
 
 @media (max-width: 768px) {
@@ -200,5 +203,14 @@ section {
   }
   .brands {
     width: 100%;
+  }
+  .dropdown-item::before {
+    transform: rotate(-90deg);
+  }
+}
+
+@media (max-width: 576px) {
+  .dropdown-item::before {
+    transform: rotate(-90deg);
   }
 }
